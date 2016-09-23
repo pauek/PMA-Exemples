@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KmAMilles.iml" filepath="$PROJECT_DIR$/KmAMilles.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/KmAMilles/KmAMilles.iml" filepath="$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/KmAMilles/KmAMilles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/KmAMilles/app/app.iml" filepath="$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/KmAMilles/app/app.iml" />
     </modules>
   </component>
 </project>
