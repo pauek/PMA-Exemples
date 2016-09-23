@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question">Question</string>
+    <string name="check">Check</string>
+    <string name="correct">Correct!</string>
+
+    <string name="question_text">What is the capital of Bhutan?</string>
+    <array name="answers">
+        <item>Ougaougou</item>
+        <item>Pnohm Penn</item>
+        <item>*Thimphu</item> <!-- L'asterisc vol dir que és la resposta correcta -->
+        <item>Zgighiti</item>
+    </array>
+</resources>

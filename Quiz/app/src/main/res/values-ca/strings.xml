@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="check">Comprova</string>
+    <string name="correct">Correcte!</string>
+    <string name="question">Pregunta</string>
+    <string name="question_text">Quina és la capital de Butan?</string>
+</resources>
