@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question">Question</string>
+    <string name="check">Check</string>
+    <string name="correct">Correct!</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="prev">Previous</string>
+
+    <!--
+    <string name="question_text">What is the capital of Bhutan?</string>
+    <array name="answers">
+        <item>Ougaougou</item>
+        <item>Pnohm Penn</item>
+        <item>*Thimphu</item>
+        <item>Zgighiti</item>
+    </array>
+    -->
+
+    <!-- L'asterisc vol dir que és la resposta correcta -->
+    <array name="all_questions">
+        <item>What is the capital of Bhutan?;Ougaougou;Pnohm Penn;*Thimphu;Zgighiti</item>
+        <item>Pregunta 2?;a;b;c;*d</item>
+        <item>Pregunta 3?;*a;b;c;d</item>
+    </array>
+
+</resources>

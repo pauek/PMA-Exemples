@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/MultiQuiz/MultiQuiz.iml" filepath="$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/MultiQuiz/MultiQuiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/MultiQuiz/app/app.iml" filepath="$PROJECT_DIR$/../../../Anys/2016_Tardor/PMA-Exemples/MultiQuiz/app/app.iml" />
+    </modules>
+  </component>
+</project>
