@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Quiz</string>
+    <string name="app_name" translatable="false">MultiQuiz</string>
     <string name="question">Question</string>
     <string name="check">Check</string>
     <string name="correct">Correct!</string>
