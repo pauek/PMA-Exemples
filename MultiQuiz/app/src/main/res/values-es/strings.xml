@@ -4,7 +4,7 @@
     <string name="check">Comprueba</string>
     <string name="correct">Correcto!</string>
     <string name="question">Pregunta</string>
-    <string name="question_text">Cual es la capital de Butan?</string>
     <string name="finish">Acaba</string>
     <string name="next">Siguiente</string>
+    <string name="prev">Anterior</string>
 </resources>

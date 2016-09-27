@@ -89,6 +89,8 @@ public class QuizActivity extends AppCompatActivity {
         TextView question_text = (TextView) findViewById(R.id.question_text);
         question_text.setText(parts[0]);
 
+        respostes.clearCheck();
+
         for (int i = 0; i < ids_respostes.length; i++) {
             RadioButton rb = (RadioButton) findViewById(ids_respostes[i]);
             String ans = parts[i+1];
@@ -97,7 +99,9 @@ public class QuizActivity extends AppCompatActivity {
                 resposta_correcta = i;
             }
             rb.setText(ans);
-            rb.setChecked(i == user_answers[current_question]);
+            if (i == user_answers[current_question]) {
+                rb.setChecked(true);
+            }
         }
 
         // Si estem a la última pregunta: posar "finish" al botó de baix
