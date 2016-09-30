@@ -6,9 +6,4 @@
     <string name="finish">Acaba</string>
     <string name="next">Siguiente</string>
     <string name="prev">Anterior</string>
-    <string name="results">Resultados</string>
-    <string name="start_over">Volver a Empezar</string>
-    <string name="scorrect">Correctas</string>
-    <string name="sincorrect">Incorrectas</string>
-    <string name="sunanswered">No contestadas</string>
 </resources>
