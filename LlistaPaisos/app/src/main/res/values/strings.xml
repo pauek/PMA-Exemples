@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LlistaPaïsos</string>
+    <string name="sure">Are you sure?</string>
+    <string name="sure_remove">Estàs segur que vols esborrar</string>
+    <string name="confirm">Confirmació</string>
+    <string name="erase">Esborra</string>
+</resources>
