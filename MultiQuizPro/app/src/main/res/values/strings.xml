@@ -6,6 +6,11 @@
     <string name="next">Next</string>
     <string name="finish">Finish</string>
     <string name="prev">Previous</string>
+    <string name="results">Results</string>
+    <string name="start_over">Start Over</string>
+    <string name="scorrect">Correct</string>
+    <string name="sincorrect">Incorrect</string>
+    <string name="sunanswered">Unanswered</string>
 
     <!-- L'asterisc vol dir que és la resposta correcta -->
     <array name="all_questions">
