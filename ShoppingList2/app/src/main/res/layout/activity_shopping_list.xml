@@ -51,6 +51,6 @@
             android:textSize="24sp"
             android:layout_width="58dp"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:onClick="onButtonAddClick (ShoppingListActivity)" />
+            android:onClick="onButtonAddClick" />
     </RelativeLayout>
 </RelativeLayout>
