@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="confirm">Confirmation</string>
+    <string name="confirm_remove">Are you sure you want to remove \'%s\'?</string>
+    <string name="remove">Remove</string>
+    <string name="read_error">Error reading list</string>
+    <string name="clear_checked">Clear Checked Items</string>
+</resources>
