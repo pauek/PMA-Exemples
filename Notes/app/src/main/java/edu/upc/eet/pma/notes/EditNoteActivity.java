@@ -24,11 +24,17 @@ public class EditNoteActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
         if (extras != null) {
-            String title = extras.getString("title");
-            String text = extras.getString("text");
-            edit_title.setText(title);
-            edit_text.setText(text);
-            pos = extras.getInt("pos");
+            String text = extras.getString(Intent.EXTRA_TEXT);
+            if (text == null) {
+                String title = extras.getString("title");
+                text = extras.getString("text");
+                edit_title.setText(title);
+                edit_text.setText(text);
+                pos = extras.getInt("pos");
+            } else {
+                edit_text.setText(text);
+                edit_title.setText(R.string.new_note);
+            }
         }
     }
 
@@ -51,6 +57,16 @@ public class EditNoteActivity extends AppCompatActivity {
                 data.putExtra("text",  edit_text.getText().toString());
                 setResult(RESULT_OK, data);
                 finish();
+                return true;
+
+            case R.id.option_share:
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_SEND);
+                intent.putExtra(Intent.EXTRA_TEXT, edit_text.getText().toString());
+                intent.setType("text/plain");
+                String chooser_title = getResources().getString(R.string.chooser_title);
+                Intent chooser = Intent.createChooser(intent, chooser_title);
+                startActivity(chooser);
                 return true;
 
         default:

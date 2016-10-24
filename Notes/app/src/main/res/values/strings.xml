@@ -3,4 +3,7 @@
     <string name="note_title_hint">Note title</string>
     <string name="write_your_note_hint">Write your note</string>
     <string name="save_note">Save note</string>
+    <string name="share">Share</string>
+    <string name="chooser_title">Choose app to share note</string>
+    <string name="new_note">New note</string>
 </resources>
